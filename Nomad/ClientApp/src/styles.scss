@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+mat-grid-tile {
+  cursor: pointer;
+  background: red;
+  &.active {
+    background: green;
+    color: #fff;
+    font-weight: bold;
+    font-size: 32px;
+  }
+}
